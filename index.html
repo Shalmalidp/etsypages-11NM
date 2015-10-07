@@ -8,10 +8,20 @@
 <body>
 <div class="main-page">
   <header>
-    <div class="logo-Search"></div>
-    <div class="sell-reg-sign"></div>
-    <div class="cart"></div>
-  </header>> 
+    <div class="logo-Search">
+      <h2>Etsy</h2>
+      <input type="text" name="search placeholder="search>
+      <button>Search</button>
+    </div>
+    <div class="sell-reg-sign">
+      <h4><a href="#">Sell on Etsy</a></h4>
+      <h4><a href="#">Register</a></h4>
+      <button>Sign in</button>
+    </div>
+    <div class="cart">
+    <h6>Cart</h6> 
+    </div>
+  </header> 
   
  <div class="container1">
     <ul>
@@ -53,9 +63,9 @@
     <h4>Refine your search </h4>
     <div class="side-left2">
       <h4>Item Type</h4>
-        <input type="radio" name="Item" value="All Items"> All Items<br>
-        <input type="radio" name="item" value="Handmade"> Handmade<br>
-        <input type="radio" name="item" value= "Vintage"> Vintage<br>
+        <input type="radio" name="Item" value="All Items" selected="true"> All Items<br><br>
+        <input type="radio" name="item" value="Handmade"> Handmade<br><br>
+        <input type="radio" name="item" value= "Vintage"> Vintage<br><br>
     </div> 
        <hr>
 
@@ -82,29 +92,27 @@
       </div>
       <hr>
       <div class="ord-opt">
-      <label> <input type="checkbox" id="cb1" value="first_checkbox">Accept Etsy Gift Cards</label><br> 
+      <label> <input type="checkbox" id="cb1" value="first_checkbox">Accept Etsy Gift Cards</label><br> <br>
       <label> <input type="checkbox" id="cb2" value="second_checkbox">Customizable</label> 
       </div>
-
-
-
-
-   
-
-
-
-
+      <hr>
+      <div class="shop-loc">
+        <input type="radio" name="loc" value="Anywhere" selected = "true"> Anywhere<br><br>
+        <input type="radio" name="loc" value="United States"> United States<br><br>
+        <a href="#">Choose a custom location</a>
+      </div> 
+      <hr>
+      <div class="shipto">
+        <h4> Ship to </h4>
+        <input type="text" name="shipto" placeholder="United States" >
+      </div>
 </aside>
 
-<section>
+<section >
   
 
 
 </section>
-
-
-
-
 </div>
   <script src="bower_components/underscore/underscore.js"></script>
   <script src="bower_components/jquery/dist/jquery.min.js"></script>
