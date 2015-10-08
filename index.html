@@ -3,25 +3,30 @@
 <head>
   <title>ETSY PAGE ASSIGNMENT 11</title>
   <link rel="stylesheet" href="bower_components/normalize.css/normalize.css">
+  <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
 <div class="main-page">
   <header>
-    <div class="logo-Search">
+    <div class="logo-search">
       <h2>Etsy</h2>
-      <input type="text" name="search placeholder="search>
-      <button>Search</button>
+      <input id ="search" type="text" name="search">
+      <button id="b1">Search</button>
     </div>
-    <div class="sell-reg-sign">
-      <h4><a href="#">Sell on Etsy</a></h4>
-      <h4><a href="#">Register</a></h4>
-      <button>Sign in</button>
+
+    <div class="sell-reg-divs">
+      <h4 id="sell"><a href="#">Sell on Etsy</a></h4>
+      <h4 id ="reg"><a href="#">Register</a></h4>
+      <button class="sell-reg" id="b2">Sign in</button>
     </div>
-    <div class="cart">
+
+    <div class="cart" >
+    <div id="sprite-cart"></div>
     <h6>Cart</h6> 
     </div>
   </header> 
+  <hr>
   
  <div class="container1">
     <ul>
@@ -35,87 +40,109 @@
       <li><a href="#">Vintage</a></li>
     </ul>
   </div>
+<hr>
+<div class="container2">
+            <h4> Show Results for:</h4>
 
-<aside>
-    <h4> Show Results for:</h4>
-    <div class="side-left1">
-    <ul>
-        <h4>All Categories</h4>
-        <li><a href="#">Home & Living</a></li>
-        <li><a href="#">Weddings</a></li>
-        <li><a href="#">Art & Collectibles</a></li>
-        <li><a href="#">Clothing</a></li>
-        <li><a href="#">Jewelry</a></li>
-        <li><a href="#">Paper & Party Supplies</a></li>
-        <li><a href="#">Accessories</a></li>
-        <li><a href="#">Bags & Purses</a></li>
-        <li><a href="#">Bath & Beauty</a></li>
-        <li><a href="#">Craft Supplies & Tools</a></li>
-        <li><a href="#">Electronics & Accessories</a></li>
-        <li><a href="#">Books, Movies & Music</a></li>
-        <li><a href="#">Pet Supplies</a></li>
-        <li><a href="#">Toys & Games</a></li>
-        <li><a href="#">Shoes</a></li>    
-    </ul>  
-    </div>
+        <aside>
+            <div class="side-left1">
+            <ul>
+                <h4>All Categories</h4>
+                <li><a href="#">Home & Living</a></li>
+                <li><a href="#">Weddings</a></li>
+                <li><a href="#">Art & Collectibles</a></li>
+                <li><a href="#">Clothing</a></li>
+                <li><a href="#">Jewelry</a></li>
+                <li><a href="#">Paper & Party Supplies</a></li>
+                <li><a href="#">Accessories</a></li>
+                <li><a href="#">Bags & Purses</a></li>
+                <li><a href="#">Bath & Beauty</a></li>
+                <li><a href="#">Craft Supplies & Tools</a></li>
+                <li><a href="#">Electronics & Accessories</a></li>
+                <li><a href="#">Books, Movies & Music</a></li>
+                <li><a href="#">Pet Supplies</a></li>
+                <li><a href="#">Toys & Games</a></li>
+                <li><a href="#">Shoes</a></li>    
+            </ul>  
+            </div>
+            
+            <h4>Refine your search </h4>
+            <div class="side-left2">
+              <h4>Item Type</h4>
+                <input id="rb" type="radio" name="item" value="All Items" checked> All Items<br>
+                <input id="rb" type="radio" name="item" value="Handmade"> Handmade<br>
+                <input id="rb" type="radio" name="item" value= "Vintage"> Vintage<br><br>
+             
+               <hr>
+            <div class="price">
+               <h4> Price</h4>
+               <div>
+                 <input type="text" id="low" placeholder="$ Low" >
+                 <h4>to </h4>
+                 <input type="text" id="high" placeholder=" $ High">
+                 <button class="price-Arrow"></button>
+                 <div id="img"></div> 
+               </div>
+            </div><br>
+            <hr>
+              <div class="filter">
+                <h4>Filter by Color</h4>
+                <button class="red"></button>
+                <button class="orange"></button>
+                <button class="yellow"></button>
+                <button class="green"></button>
+                <button class="blue"></button>
+                <button class="purple"></button>
+                <button class="black"></button>  
+                <button class="white"></button>
+              </div>
+              <hr>
+
+              <div class="ord-opt">
+              <h4>Ordering Options</h4>
+              <label> <input type="checkbox" id="cb1" value="first_checkbox">Accept Etsy Gift Cards</label><br>
+              <label> <input type="checkbox" id="cb1" value="second_checkbox">Customizable</label> 
+              </div>
+              <hr>
+              <div class="shop-loc">
+                <h4>Shop Location</h4>
+                <input type="radio" name="loc" value="Anywhere" checked> Anywhere<br>
+                <input type="radio" name="loc" value="United States"> United States<br>
+                <a href="#" class="loca">Choose a custom location</a>
+              </div> 
+              <hr>
+              <div class="shipto">
+                <h4> Ship To </h4>
+                <select >
+                  <option value= "USA">United States of America </option>
+                  <option value="South America">South America</option>
+                  <option value= "Europe">Europe</option>
+                  <option value="Asia">Asia</option>
+                </select>
+              </div>
+          </div>
+        </aside>
 
 
-    <h4>Refine your search </h4>
-    <div class="side-left2">
-      <h4>Item Type</h4>
-        <input type="radio" name="Item" value="All Items" selected="true"> All Items<br><br>
-        <input type="radio" name="item" value="Handmade"> Handmade<br><br>
-        <input type="radio" name="item" value= "Vintage"> Vintage<br><br>
-    </div> 
-       <hr>
-
-    <div class="price">
-       <h4> Price</h4>
-       <div>
-         <input type="text" name="low" placeholder="$ Low" >
-         <h4>to </h4>
-         <input type="text" name="high" placeholder=" $ High">
-         <button class="price-Arrow"></button>   
+        <div class="display">
+          <h4><span>All Categories</span> > "whiskey" (25,488 Results)</h4>
+         <div class="details">
+          <script type="text/template" id="itemjstemplate">
+          <div class="wrap-element">
+              <div class="img-dis">
+              <img src="<%= Images[0].url_170x135 %>">
+              </div>
+              <div class="description">
+              <span>  <%= price %> </span>
+            </div>
+            </div>
+          </script>
+        </div>
        </div>
-    </div>
-     <hr>
-      <div class="filter">
-        <h4>Filter by Color</h4>
-        <button class="red"></button>
-        <button class="orange"></button>
-        <button class="yellow"></button>
-        <button class="green"></button>
-        <button class="blue"></button>
-        <button class="purple"></button>
-        <button class="black"></button>  
-        <button class="white"></button>
-      </div>
-      <hr>
-      <div class="ord-opt">
-      <label> <input type="checkbox" id="cb1" value="first_checkbox">Accept Etsy Gift Cards</label><br> <br>
-      <label> <input type="checkbox" id="cb2" value="second_checkbox">Customizable</label> 
-      </div>
-      <hr>
-      <div class="shop-loc">
-        <input type="radio" name="loc" value="Anywhere" selected = "true"> Anywhere<br><br>
-        <input type="radio" name="loc" value="United States"> United States<br><br>
-        <a href="#">Choose a custom location</a>
-      </div> 
-      <hr>
-      <div class="shipto">
-        <h4> Ship to </h4>
-        <input type="text" name="shipto" placeholder="United States" >
-      </div>
-</aside>
-
-<section >
-  
-
-
-</section>
 </div>
   <script src="bower_components/underscore/underscore.js"></script>
   <script src="bower_components/jquery/dist/jquery.min.js"></script>
+  <script src="js/etsy.js"></script>
   <script src="js/main.js"></script>
 </body>
 </html>
