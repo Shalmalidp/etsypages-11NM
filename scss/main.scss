@@ -422,6 +422,11 @@ color:#2BA8C6;
   float: left;
   margin-right: 30px;
   margin-bottom: 20px;
-  border:1px solid black;
+  border:1px #CBCCC9;
+  position:relative;
  }     
 
+.description h4{
+  position:absolute;
+  color: solid green;
+}
