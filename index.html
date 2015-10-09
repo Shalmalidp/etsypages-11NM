@@ -122,10 +122,9 @@
               </div>
           </div>
         </aside>
-
-
         <div class="display">
-          <h4><span>All Categories</span> > "whiskey" (25,488 Results)</h4>
+          <h3><span>All Categories</span> > "whiskey" (25,488 Results)</h3>
+          <hr>
          <div class="details">
           <script type="text/template" id="itemjstemplate">
           <div class="wrap-element">
@@ -133,13 +132,20 @@
               <img src="<%= Images[0].url_170x135 %>">
               </div>
               <div class="description">
-              <h4>$<%= price %> <%= currency_code%></h4>
-            </div>
+                  <h5 id="ti"><%=title%></h5>
+                  <h4>$<%= price %> <%= currency_code%></h4>
+                  <h5 id="sh"> <%= Shop.shop_name %> </h5>
+               </div>
             </div>
           </script>
         </div>
-       </div>
-<!-- </div> -->
+<footer> 
+<hr>
+
+</footer>
+
+<!-- </div>
+ -->
   <script src="bower_components/underscore/underscore.js"></script>
   <script src="bower_components/jquery/dist/jquery.min.js"></script>
   <script src="js/etsy.js"></script>

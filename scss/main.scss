@@ -189,17 +189,18 @@ background-color:white;
         
 .container2{
   padding-left:100px;
-  margin:0;
+  margin:-17px;
   font-size: 13px;
   font-weight: normal;
   color:#666666;
-  line-height: 20px;
+  line-height: 50px;
   background-color:#F5F5F1;
+
 
 }
 
 aside{
-  
+  line-height: 20px;
   width:225px;
   font-size:13px;
   color:#666666;
@@ -294,8 +295,8 @@ padding-left:10px;
 
  #img{
   position:absolute;
-  top:778px;
-  left:287px;
+  top:785px;
+  left:270px;
     width: 0;
     height: 0;
     border-style: solid;
@@ -387,46 +388,104 @@ padding-left:10px;
 
 
 .display{ 
-display:inline-block;
-border: 1px dashed black;
-width:870px;
-//height:1000px;
-padding-left:10px;
-vertical-align:middle;
-//overflow:auto;
-//float: right;
-//font-size:13px;
+    display: inline-block;
+    //border: 1px dashed black;
+    width: 800px;
+    margin: 0 auto;
+    margin-top:-19px;
+    //margin-left: 50px;
+   padding-left: 20px;
 }
 
+
+
 .display h4{
+  //display: inline-block;
+  font-size:13px;
+  font-weight: normal;
+  color: green;
+  float: right; 
+
+}
+
+.display h3{
   font-size:13px;
   font-weight: normal;
 }
 
-.display h4 span{
+.display h3 span{
 color:#2BA8C6;
 }
 
 
 .details{
   display: inline-block;
-  margin:0;
-  //height: 300px;
-  width: 100%;
+  //margin:0;
+  //width: 40px;
   margin:10px;
-
+  margin-left:75px;
 }
+
+
+
+  .img-dis{
+    width: 100%;
+    height:165px;
+  }
+
+  .img-dis img{
+    width: 100%;
+    height:155px;
+    padding:0;
+    margin:0;
+  }
+
+
 
  .wrap-element{
   display: inline-block;
-  float: left;
-  margin-right: 30px;
-  margin-bottom: 20px;
-  border:1px #CBCCC9;
-  position:relative;
- }     
+  overflow:hidden;
+  margin-right: 10px;
+  margin-bottom:20px;
+  border:1px solid #CBCCC9; 
+  width: 200px;
+  height:200px;
+  
 
-.description h4{
-  position:absolute;
-  color: solid green;
+  h4{
+    //display: inline-block;
+    padding:0;
+    margin:0;
+    line-height: 20px;
+  }
+
+  #ti{
+    //display: inline-block;
+    padding:0 2px;
+    margin:0;
+    line-height: 20px;
+    font-weight: normal;
+    white-space: nowrap;
+    text-overflow:ellipsis;
+    overflow: hidden;
+    
+  }
+  #sh{
+    //display: inline-block;
+    width:190px;
+    margin:0 2px;
+    line-height: 20px;
+    font-weight: normal;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color:#C2C2C2;
+    padding-left: 2px;
+  }
+ }  
+
+.description {
+text-overflow: ellipsis;
+white-space:no-wrap;
+overflow:hidden;
 }
+
