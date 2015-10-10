@@ -12,13 +12,27 @@ $('.details').append(itemHTML);
 
 
 
-
-$('.wrap-element').on('mouseenter', function(event){
+$('.wrap-element').mouseenter(function(event){
   var btn = $(this);
-  btn.find('hamburger-heart').addClass('show');
+  btn.find('.hamburger-heart').addClass('.show').css("display","inline");
 });
 
-// $('.details').on('mouseleave','.wrap-element' function(event){
+
+
+$('.wrap-element').mouseleave(function(event){
+  var btn = $(this);
+  btn.find('.hamburger-heart').addClass('.show').css("display","none");
+});
+
+
+// $('.wrap-element').on('click',function(event){
 //   var btn = $(this);
-//   btn.find('hamburger-heart').toggleClass('show');
+//   console.log(btn +"was fired");
+//   btn.find('.hamburger-heart').addClass('.show').css("display","inline");
+// });
+
+
+// $('.details').on('mouseleave','wrap-element' function(event){
+//   var btn = $(this);
+//   btn.find('.hamburger-heart').removeClass('.show').css("display","none");
 // });
