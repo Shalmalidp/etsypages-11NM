@@ -422,8 +422,9 @@ color:#2BA8C6;
   display: inline-block;
   //margin:0;
   //width: 40px;
-  margin:10px;
+  margin:10px 75px 5px 75px;
   margin-left:75px;
+  
 }
 
 
@@ -446,10 +447,11 @@ color:#2BA8C6;
   display: inline-block;
   overflow:hidden;
   margin-right: 10px;
-  margin-bottom:20px;
+  margin-bottom:-6px;
   border:1px solid #CBCCC9; 
   width: 200px;
   height:200px;
+  position:relative;
   
 
   h4{
@@ -489,3 +491,143 @@ white-space:no-wrap;
 overflow:hidden;
 }
 
+.hamburger-heart{
+  position:absolute;
+  top:0;
+  right:10px;
+  display:none;
+}
+
+.show{
+display:block !important ;
+ }
+
+.container3{
+  background-color:#F5F5F1;
+  width:99%;
+  overflow: auto;
+  padding-bottom:0;
+}
+
+
+.opt{
+  width:100%;
+  background-color:#F5F5F1;
+  display: inline-block;
+  padding-left:325px;
+  line-height: 20px;
+}
+
+
+.ul1{
+    background-color:#F5F5F1;
+    list-style: none;
+    font-weight: normal;
+    display: inline-block;
+    padding:0;
+
+}
+
+.ul2{
+    background-color:#F5F5F1; 
+    list-style: none;
+    font-weight: normal;
+    display: inline-block
+}
+
+
+.ul3{
+  background-color:#F5F5F1;
+  list-style: none;
+  font-weight: normal;
+  display: inline-block;
+  vertical-align: top;
+
+}
+
+.related{
+  float:right;
+  width:100%;
+  color:black;
+  font-weight:bold;
+  background-color:#F5F5F1;
+  overflow: hidden;
+}
+
+#relate{
+  line-height: 0px;
+  padding-left:325px;
+}
+
+.list1{
+  list-style:none;
+  line-height: 25px;
+  margin-right: 20px;
+}
+.list1 a{
+  color:#0092B7;
+  text-decoration: none;
+}
+
+.list2{
+  list-style:none;
+  line-height: 25px;
+  margin-right: 20px;
+
+}
+.list2 a{
+  color:#0092B7;
+  text-decoration: none;
+}
+
+.list3{
+  list-style:none;
+  line-height: 25px;
+  margin-right: 20px;
+}
+.list3 a{
+  color:#0092B7;
+  text-decoration: none;
+}
+
+.look{
+  font-weight: normal;
+}
+
+.look a{
+  text-decoration: none;
+  color:#0092B7;
+}
+
+.btn{
+  display:block;
+margin-left: 325px;
+}
+
+.footer-btn{
+  width:40px;
+  height:40px;
+  font-weight:bold;
+  line-height: 15px;
+  background-color:white;
+  font-size: 15px;
+  margin-right:-6px;
+  border:1px solid #CBCCC9;
+  pointer:hand; 
+}
+.footer-btn:hover{
+background-color:#F5F5F1;
+}
+
+#fp{
+  color:#AAAAAA;
+  background-color:#F5F5F1;
+}
+
+#dot{
+  background-color:#F5F5F1;
+}
+
+#one{
+  background-color:#F1F1EB;
+}

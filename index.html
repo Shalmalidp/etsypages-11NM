@@ -27,7 +27,7 @@
     </div>
   </header> 
   <hr>
-  
+
  <div class="container1">
     <ul>
       <li><a href="#">Clothing & Accessories</a></li>
@@ -125,27 +125,69 @@
         <div class="display">
           <h3><span>All Categories</span> > "whiskey" (25,488 Results)</h3>
           <hr>
-         <div class="details">
-          <script type="text/template" id="itemjstemplate">
-          <div class="wrap-element">
-              <div class="img-dis">
-              <img src="<%= Images[0].url_170x135 %>">
-              </div>
-              <div class="description">
-                  <h5 id="ti"><%=title%></h5>
-                  <h4>$<%= price %> <%= currency_code%></h4>
-                  <h5 id="sh"> <%= Shop.shop_name %> </h5>
-               </div>
-            </div>
-          </script>
-        </div>
+         <div class="details"></div>
+</div>
+
+<div class="container3">
+    <div class="related">
+     <h4 id="relate">Related to whiskey</h4> 
+     <div class="opt">
+       <ul class="ul1">
+         <li class="list1"><a href="#">whiskey barrel</a></li>
+         <li class="list1"><a href="#">whiskey decanter</a></li>
+         <li class="list1"><a href="#">whiskey stones</a></li>
+         <li class="list1"><a href="#">jack daniels</a></li>
+       </ul>
+       <ul class="ul2">
+         <li class="list2"><a href="#">bourbon</a></li>
+         <li class="list2"><a href="#">scotch</a></li>
+         <li class="list2"><a href="#">whiskey bottle</a></li>
+         <li class="list2"><a href="#">beer</a></li>
+       </ul>
+       <ul class="ul3">
+        <li class="list3"><a href="#">cigar</a></li>
+        <li class="list3"><a href="#">flask</a></li>
+       </ul>
+       <h4 class="look">Looking for shops? <a href="#">  whiskeynweddingbells</a>,<a href="#">    WhiskeyDogWares</a>, <a href="#">  WhiskeysWhims. See more.  </a></h4>
+      </div>
+    </div>
+</div>
+
 <footer> 
+<div class="btn">
+<button class="footer-btn" id="fp"><</button>
+<button class="footer-btn" id="one">1</button>
+<button class="footer-btn">2</button>
+<button class="footer-btn">3</button>
+<button class="footer-btn">4</button>
+<button class="footer-btn">5</button>
+<button class="footer-btn">6</button>
+<button class="footer-btn">7</button>
+<button class="footer-btn">8</button>
+<button class="footer-btn" id="dot">...</button>
+<button class="footer-btn">250</button>
+<button class="footer-btn" id="lp">></button>
+</div>
+</footer>
 <hr>
 
-</footer>
+  <script type="text/template" id="itemjstemplate">
+  <div class="wrap-element">
+      <div class="img-dis">
+      <img src="<%= Images[0].url_170x135 %>">
+      </div>
+      <div class="description">
+          <h5 id="ti"><%=title%></h5>
+          <h4>$<%= price %> <%= currency_code%></h4>
+          <h5 id="sh"> <%= Shop.shop_name %> </h5>
+       </div>
+       <div class="hamburger-heart">
+          <img src="images/heart.png">
+          <img src="images/hamburger.png">
+      </div>
+    </div>
+  </script>
 
-<!-- </div>
- -->
   <script src="bower_components/underscore/underscore.js"></script>
   <script src="bower_components/jquery/dist/jquery.min.js"></script>
   <script src="js/etsy.js"></script>

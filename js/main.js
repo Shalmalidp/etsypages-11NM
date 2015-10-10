@@ -8,3 +8,17 @@ _.each(etsy.results, function(item){
 var itemHTML = templateFunction(item);
 $('.details').append(itemHTML);
 });
+
+
+
+
+
+$('.wrap-element').on('mouseenter', function(event){
+  var btn = $(this);
+  btn.find('hamburger-heart').addClass('show');
+});
+
+// $('.details').on('mouseleave','.wrap-element' function(event){
+//   var btn = $(this);
+//   btn.find('hamburger-heart').toggleClass('show');
+// });
