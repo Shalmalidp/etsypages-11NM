@@ -99,7 +99,7 @@ h2 {
   font-size: 15px; }
 
 .cart {
-  border-left: 1px solid;
+  border-left: 1px solid #F5F5F1;
   width: 150px;
   display: inline-block;
   text-align: center;
@@ -243,8 +243,8 @@ aside {
 
 #img {
   position: absolute;
-  top: 785px;
-  left: 270px;
+  top: 10px;
+  left: 12px;
   width: 0;
   height: 0;
   border-style: solid;
@@ -309,6 +309,12 @@ aside {
   background-color: white;
   border-radius: 2px;
   border: 1px solid grey; }
+
+#o1 {
+  height: 40px;
+  width: 200px;
+  background-color: white;
+  cursor: pointer; }
 
 .ord-opt h4 {
   padding-left: 10px; }
@@ -397,36 +403,52 @@ aside {
   right: 5px;
   display: none;
   padding: 0;
-  margin: 0; }
+  line-height: 10px;
+  margin: 5px 0; }
 
 #icon1 {
   background-color: white;
   padding: 2px;
-  width: 22px;
-  height: 20px; }
+  width: 12px;
+  height: 13px;
+  border: 1px solid #666666;
+  border-radius: 2px; }
+
+#icon1:hover {
+  background-color: #F5F5F1; }
 
 #ham-arrow {
   position: relative;
   overflow: auto;
   margin-top: 10px;
-  width: 40px;
-  height: 20px;
+  width: 25px;
+  height: 14px;
   background-color: white;
+  border: 1px solid #666666;
+  border-radius: 2px;
   display: inline-block;
-  padding: 0; }
+  padding: 0;
+  padding-top: 3px; }
+
+#ham-arrow:hover {
+  background-color: #F5F5F1; }
 
 #icon2 {
   background-color: white;
   padding: 2px;
   width: 12px;
   height: 12px;
-  float: left; }
+  float: left;
+  margin-left: 0px;
+  padding-left: 0px;
+  margin-top: -2px; }
 
 #arrow {
   position: absolute;
   float: right;
   width: 0;
   height: 0;
+  margin-top: 3px;
   border-style: solid;
   border-width: 5px 4px 0 4px;
   border-color: #c2c2c5 transparent transparent transparent; }
