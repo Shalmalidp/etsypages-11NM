@@ -1,12 +1,10 @@
 ## Deliverables
 
-1. Push to Github and comment with a link to your repo & deployed version
-2. Close the Issue
+1. Push to Github and comment with a link to your repo & deployed version--COMPLETED
+2. Close the Issue --COMPLETED
 
 ## Normal Mode
-
 Re-Create An Etsy Page - https://www.etsy.com/search?q=whiskey
-
 
 1. Utilize the data for whatever search term you use - [DATA HERE](https://api.etsy.com/v2/listings/active?api_key=h9oq2yf3twf4ziejn10b717i&keywords=whiskey&includes=Images,Shop
 2. We haven't covered how to fetch data using JavaScript, so just copy the data and store it in a variable.
@@ -18,3 +16,5 @@ Re-Create An Etsy Page - https://www.etsy.com/search?q=whiskey
 > Pro Tip, worry about the structure first, the JS second and the fine details of the design last
 
 > Note: The assets (heart, cart and hamburger icons) are in an assets folder for you. 
+
+### My Project Link :http://shalmalidp.github.io/etsypages-11NM/
